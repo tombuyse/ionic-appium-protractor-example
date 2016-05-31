@@ -1,0 +1,18 @@
+{
+  "name": "ionicappiumprotractorexample",
+  "version": "1.0.0",
+  "dependencies": {
+    "appium": {
+      "version": "1.5.2",
+      "from": "appium@>=1.5.2 <2.0.0",
+      "resolved": "https://registry.npmjs.org/appium/-/appium-1.5.2.tgz",
+      "dependencies": {
+        "appium-android-driver": {
+          "version": "1.10.7",
+          "from": "appium-android-driver@1.10.7",
+          "resolved": "https://registry.npmjs.org/appium-android-driver/-/appium-android-driver-1.10.7.tgz"
+          }
+        }
+     }
+  }
+}

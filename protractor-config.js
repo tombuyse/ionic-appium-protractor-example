@@ -10,8 +10,7 @@ exports.config = {
         deviceName: 'lg g3',
         browserName: "",
         autoWebview: true,
-        //CHANGE THIS TO YOUR ABSOLUTE PATH
-        app: '/Users/tombuyse/Documents/ionicAppiumProtractorExample/ionicAppiumProtractorExample/platforms/android/build/outputs/apk/android-debug.apk'
+        app: __dirname + '/platforms/android/build/outputs/apk/android-debug.apk'
         //newCommandTimeout: 60
     },
     baseUrl: 'http://10.0.2.2:8000',
